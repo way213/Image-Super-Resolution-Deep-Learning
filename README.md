@@ -6,7 +6,7 @@ Objective:
 
 We are planning to modify the Fast Super-Resolution Convolutional Neural Network (FSRCNN) model introduced in the “Accelerating the Super-Resolution Convolutional Neural Network” (Chao Dong et.al. 2016) paper. We hypothesize that our model will decrease computation and inference time while maintaining accuracy. We will follow the same steps for training and testing in the paper so that we can compare the performance of our models with that of the original architecture. The number of epochs will be reduced due to hardware inavalibilities.
 
-Steps to Proceed:
+# Steps to Proceed:
 
 To start, the datasets have to be downloaded and unzipped in the link below, then placed into the "data" folder. 
 
@@ -14,7 +14,7 @@ https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sha
 
 Now, the "run.py" file was ran, to initialize and seperate the data into train/test. 
 
-We are now ready to train the model through running the "train.py" file.
+# # We are now ready to train the model through running the "train.py" file.
 
 Modifications to the "config.py" file will be needed in reguards to the variables below:
 
@@ -37,9 +37,11 @@ The exp_number variable references the different types of archeticture we will b
 
 For example, the "train.py" file would be run where the variables within the "config.py" file as such : upscale_factor = 2, mode = train, exp_number = 0.
 
-This would create a model was trained with an upscale_factor of 2, while using the original archeticture. For each case, we will re-train the model on the same dataset, and identify the runtime and accuracy.
+This would create a model that was trained while using the original archeticture with an upscale_factor of 2. For each case, we will re-train the model on the same dataset, and identify the runtime and accuracy.
 
+# # After creating every possible model conbination, we are now ready to validate the models. 
 
+"validate.py" will be ran and the model will be validated based on what the variable "validate_data" is referencing, please note to apply this change "mode = valid", when running "validate.py".
 
 # FSRCNN-PyTorch
 
