@@ -16,7 +16,7 @@ https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sha
 
 Now, the "run.py" file was ran, to initialize and seperate the data into train/test. 
 
-## We are now ready to train the model through running the "train.py" file.
+## We are now ready to train the model through running the "train.py" file:
 
 Modifications to the "config.py" file will be needed in reguards to the variables below:
 
@@ -41,7 +41,7 @@ For example, the "train.py" file would be run where the variables within the "co
 
 This would create a model that was trained while using the original archeticture with an upscale_factor of 2. For each case, we will re-train the model on the same dataset, and identify the runtime and accuracy.
 
-## After creating every possible model conbination, we are now ready to validate the models. 
+## After creating every possible model conbination, we are now ready to validate the models:
 
 "validate.py" will be ran and the model will be validated based on what the variable "validate_data" is referencing, please note to apply this change "mode = valid", when running "validate.py".
 
@@ -86,4 +86,13 @@ Yang Results:
 | x3                 | 504.1806       | 497.7157       | 506.2721       |
 | x4                 | 432.3168       | 487.743        | 543.1881       |
 
+## Conclusions:
+
+Unfortunately, our experiment models had a longer inference/training time compared to the original model.
+
+This may be because the network is shallow. So the effects of the small filters are not visible
+
+Interestingly, our experiment models has a better PSNR than the original model (at least for upscale factor of 2) despite using small filters.
+
+Overall, although our experiment did not accomplish the original goal (lower inference time), we believe our experiment results can contribute to future research on Super-Resolution
 
