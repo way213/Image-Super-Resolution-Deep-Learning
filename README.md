@@ -1,7 +1,7 @@
 
 # This repository contains an augmented version of the FSRCNN model developed by Lornatang referenced below.
 
-## Authors: Masaaki Kato (mkato1578@gmail.com) , William Yang (way213@nyu.edu)
+## Authors: Masaaki Kato (mak991@nyu.edu) , William Yang (way213@nyu.edu)
 
 
 Objective: 
