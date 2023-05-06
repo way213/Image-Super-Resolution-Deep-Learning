@@ -37,7 +37,7 @@ The mapping layer in the original FSRCNN uses a Conv(3x3) filter. We propose 2 m
 The exp_number variable references the different types of archeticture we will base the model on, as seen above.
 
 
-For example, the "train.py" file would be run where the variables within the "config.py" file as such : upscale_factor = 2, mode = train, exp_number = 0.
+For example, the "train.py" file would be run where the variables within the "config.py" file are as such : upscale_factor = 2, mode = train, exp_number = 0.
 
 This would create a model that was trained while using the original archeticture with an upscale_factor of 2. For each case, we will re-train the model on the same dataset, and identify the runtime and accuracy.
 
