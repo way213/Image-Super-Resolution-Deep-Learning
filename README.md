@@ -90,7 +90,7 @@ Yang Results:
 
 Unfortunately, our experiment models had a longer inference/training time compared to the original model.
 
-This may be because the network is shallow. So the effects of the small filters are not visible
+This may be because the network is shallow, so the effects of the small filters are not visible.
 
 Interestingly, our experiment models has a better PSNR than the original model (at least for upscale factor of 2) despite using small filters.
 
