@@ -45,6 +45,7 @@ This would create a model that was trained while using the original archeticture
 
 "validate.py" will be ran and the model will be validated based on what the variable "validate_data" is referencing, please note to apply this change "mode = valid", when running "validate.py".
 
+The results of the validated images will be stored in a folder with it's corresponding name under "results/test/{here}"
 # FSRCNN-PyTorch
 
 ## Overview
