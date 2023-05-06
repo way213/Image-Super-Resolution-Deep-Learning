@@ -1,3 +1,30 @@
+
+# This repository contains an augmented version of the FSRCNN model developed by Lornatang referenced in https://github.com/Lornatang/FSRCNN-PyTorch.
+
+
+Objective: 
+
+We are planning to modify the Fast Super-Resolution Convolutional Neural Network (FSRCNN) model introduced in the “Accelerating the Super-Resolution Convolutional Neural Network” (Chao Dong et.al. 2016) paper. We hypothesize that our model will decrease computation and inference time while maintaining accuracy. We will follow the same steps for training and testing in the paper so that we can compare the performance of our models with that of the original architecture. The number of epochs will be reduced due to hardware inavalibilities.
+
+Steps to Proceed:
+
+To start, the datasets have to be downloaded in the link below. https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # FSRCNN-PyTorch
 
 ## Overview
