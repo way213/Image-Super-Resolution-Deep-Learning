@@ -1,5 +1,5 @@
 
-# This repository contains an augmented version of the FSRCNN model developed by Lornatang referenced in https://github.com/Lornatang/FSRCNN-PyTorch.
+# This repository contains an augmented version of the FSRCNN model developed by Lornatang referenced in below.
 
 
 Objective: 
