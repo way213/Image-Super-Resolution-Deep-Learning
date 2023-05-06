@@ -8,17 +8,26 @@ We are planning to modify the Fast Super-Resolution Convolutional Neural Network
 
 Steps to Proceed:
 
-To start, the datasets have to be downloaded in the link below. https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing
+To start, the datasets have to be downloaded and unzipped in the link below, then placed into the "data" folder. 
 
+https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing
 
+Now, the "run.py" file was ran, to initialize and seperate the data into train/test. 
 
+We are now ready to train the model through running the "train.py" file.
 
+Modifications to the "config.py" file will be needed in reguards to the variables below:
 
+upscale_factor : (2,3,4)
+mode : (valid,train)
+validate_data : (Set5,Set14,BSDS200)
+exp_number : (0,1,2)
 
+The variable names are self explanatory, exp_number references on how we will be building the model. In our proposal, we suggested that we could try and manipulate the mapping layers of the model to make it so that the inference time could be reduced. 
 
+The mapping layer in the FSRCNN uses a Conv(3x3) filter. We propose 2 modified architectures: 1) 2  Conv(2x2) filters, 2) a Conv(1x3) filter followed by a Conv(3x1) filter (1xN → Nx1).
 
-
-
+The exp_number variable references the different types of archeticture we will base the model on, as seen above. 
 
 
 
