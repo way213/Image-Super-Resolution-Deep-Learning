@@ -47,13 +47,3 @@ This would create a model that was trained while using the original archeticture
 
 The results of the validated images will be stored in a folder with it's corresponding name under "results/test/{here}"
 
-Test Set/Experiment	original	exp0	exp1	exp2
-Set5_x2	36.94(0.068)	27.95(0.0245)	29.17(0.0296)	29.80(0.0288)
-Set14_x2	32.54(0.16)	25.89(0.0169)	26.80(0.0184)	27.39(0.02)
-BSD_x2	31.73(0.098)	26.66(0.0018)	27.31(0.0022)	27.88(0.0024)
-Set5_x3	33.06(0.027)	24.09(0.0234)	21.88(0.0255)	25.67(0.0264)
-Set14_x3	29.37(0.061)	23.03(0.0168)	20.86(0.0178)	24.08(0.0201)
-BSD_x3	28.55(0.035)	23.98(0.0017)	21.45(0.0021)	25.08(0.0024)
-Set5_x4	30.55(0.015)	22.02(0.0228)	18.34(0.0533)	18.09(0.0278)
-Set14_x4	27.50(0.029)	21.52(0.017)	18.20(0.0225)	17.77(0.0193)
-BSD_x4	26.92(0.019)	22.50(0.0018)	19.20(0.0021)	18.55(0.0024)
