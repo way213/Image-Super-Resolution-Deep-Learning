@@ -14,7 +14,7 @@ https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sha
 
 Now, the "run.py" file was ran, to initialize and seperate the data into train/test. 
 
-# # We are now ready to train the model through running the "train.py" file.
+## We are now ready to train the model through running the "train.py" file.
 
 Modifications to the "config.py" file will be needed in reguards to the variables below:
 
@@ -39,7 +39,7 @@ For example, the "train.py" file would be run where the variables within the "co
 
 This would create a model that was trained while using the original archeticture with an upscale_factor of 2. For each case, we will re-train the model on the same dataset, and identify the runtime and accuracy.
 
-# # After creating every possible model conbination, we are now ready to validate the models. 
+## After creating every possible model conbination, we are now ready to validate the models. 
 
 "validate.py" will be ran and the model will be validated based on what the variable "validate_data" is referencing, please note to apply this change "mode = valid", when running "validate.py".
 
