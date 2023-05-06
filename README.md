@@ -32,7 +32,7 @@ exp_number : (0,1,2).
 
 The variable names are self explanatory, and the varaible "exp_number" references on how we will be building the model. In our proposal, we suggested that we could try and manipulate the mapping layers of the model to make it so that the inference time could be reduced. 
 
-The mapping layer in the original FSRCNN uses a Conv(3x3) filter. We propose 2 modified architectures: 1) 2  Conv(2x2) filters, 2) a Conv(1x3) filter followed by a Conv(3x1) filter (1xN → Nx1).
+The mapping layer in the original FSRCNN uses a Conv(3x3) filter. We propose 2 modified architectures: 1)  Conv(3x1) filters followed by a Conv(1x3) filters, 2) a Conv(1x1) filter followed by a Conv(3x3) filter, then a Conv(1x1) filter (1xN → Nx1).
 
 The exp_number variable references the different types of archeticture we will base the model on, as seen above.
 
