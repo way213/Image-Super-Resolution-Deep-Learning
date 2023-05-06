@@ -94,5 +94,9 @@ This may be because the network is shallow. So the effects of the small filters 
 
 Interestingly, our experiment models has a better PSNR than the original model (at least for upscale factor of 2) despite using small filters.
 
+Exp0 (original replication) model had the lowest inference time across both machines. The goal of the project was not met; however, we have seen that the PSNR of our proposed models (upscale factor of 2) are slightly higher than the original replication. 
+
+Original experiment is more adaptable compared to our models. Looking across all the different upscale factors we can see that the original model is more resilient to such parameters.
+
 Overall, although our experiment did not accomplish the original goal (lower inference time), we believe our experiment results can contribute to future research on Super-Resolution
 
